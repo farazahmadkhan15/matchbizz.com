@@ -1,0 +1,14 @@
+vendor
+vendor/
+vendor/*
+logs/*.log
+
+.vscode
+.vscode/*
+mobile
+mobile/*
+app/compiled-templates/*
+!app/compiled-templates/.gitkeep
+
+public/img/
+!public/img/.gitkeep

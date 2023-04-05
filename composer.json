@@ -1,0 +1,27 @@
+{
+"minimum-stability": "dev",
+    "require": {
+<<<<<<< HEAD
+        "php": ">=7.0.0",
+        "vlucas/phpdotenv": "^2.4",
+        "robmorgan/phinx": "^0.9.2",
+        "phalcon-ext/mailer": "^2.1",
+        "rakit/validation": "^0.16.0",
+        "firebase/php-jwt": "^5.0",
+        "kreait/firebase-php": "^4.0",
+        "logs": "*"
+=======
+        "php": "*",
+        "robmorgan/phinx": "^0.13.4",
+        "phalcon-ext/mailer": "^3.0",
+        "rakit/validation": "^1.4",
+        "firebase/php-jwt": "^6.4",
+        "kreait/firebase-php": "^0.3.1",
+        "paypal/rest-api-sdk-php": "^1.14",
+        "vlucas/phpdotenv": "^4.3"
+>>>>>>> 024b3a8 (push from server)
+    },
+    "scripts": {
+        "phinx": "./vendor/bin/phinx"
+    }
+}

@@ -1,0 +1,14 @@
+environments:
+    default_environment: matchbizz
+    development:
+        adapter: mysql
+        host: localhost
+        name: matchbizz
+        user: root
+        pass: matchbizz
+    matchbizz:
+        adapter: mysql
+        host: localhost
+        name: matchbizz
+        user: root
+        pass: matchbizz
